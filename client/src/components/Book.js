@@ -292,7 +292,7 @@ export default props => {
       </Row>
 
       {!selection.table.id ? (
-        <div id="reservation-stuff">
+        <div id="reservation-stuff" className="container-fluid">
           <Row noGutters className="text-center align-items-center">
             <Col xs="12" sm="3">
               <input

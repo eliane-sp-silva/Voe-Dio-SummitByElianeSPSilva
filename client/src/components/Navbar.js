@@ -6,7 +6,7 @@ export default props => {
     <div>
       <Navbar color="warning" light expand="md">
         <NavbarBrand
-          className="nav-brand write"
+          className="nav-brand py-4 text-white"
           onClick={_ => {
             props.setPage(0);
           }}

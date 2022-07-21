@@ -12,7 +12,7 @@ amqp.connect('amqp://localhost', (connError, connection) => {
         channel.consume(QUEUE, (msg) => {
             console.log(`Message received: ${msg.content.toString()}`)
         }), {
-            noAck: true
+            noAck: false
         }
     })
 })

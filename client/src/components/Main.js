@@ -11,7 +11,7 @@ export default props => {
             <i className="fas fa-assento assento-slice"></i>
           </p>
           <Button
-            color="none"
+            color="warning"
             className="book-table-btn"
             onClick={_ => {
               props.setPage(1);
@@ -25,7 +25,7 @@ export default props => {
         <Col>
           <img
             src={require("../images/aviao.png")}
-            alt="cafe"
+            alt="aviao"
             className="big-img"
           />
         </Col>
